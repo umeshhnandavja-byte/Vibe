@@ -4,12 +4,14 @@ import Food from "./Food";
 import Card from "./Card";
 import Button from "./Button";
 import Student from "./Student";
+import UserGreeting from "./UserGreeting";
 
 function App() {
 
   return(
     <>
       <Header></Header>
+      <UserGreeting isLoggedin={false} username="Umeshh"/>
       <Card/>
       <Card/>
       <Card/>
