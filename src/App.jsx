@@ -5,6 +5,7 @@ import Card from "./Card";
 import Button from "./Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
+import List from "./List";
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       <Card/>
       <Card/>
       <Card/>
-      <Button></Button>
+      <Button></Button><br/>
+      <List/>
       <Food></Food>
       <Food></Food>
       <Food></Food>
