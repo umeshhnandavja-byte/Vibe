@@ -6,6 +6,7 @@ import Button from "./Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import MyComponent from "./MyComponent";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Student name="Squidward" age={50} isStudent={false}/>
       <Student name="Sandy" age={27} isStudent={true}/>
       <Student/>
+      <MyComponent/>
       <Footer></Footer>
     </>
   ); 
