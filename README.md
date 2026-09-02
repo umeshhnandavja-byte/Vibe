@@ -1,18 +1,36 @@
-# Vibe
+# Vibe ⛩️ | The Digital Dojo
 
-# React + Vite
+Vibe is an anime-inspired, high-stakes motivation and accountability network (A "Digital Dojo")[cite: 1]. Instead of a standard social feed, it is built to force users to grind, prove their work, and level up in real life[cite: 1]. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**STRICT RULE: Dark Mode ONLY. No light theme allowed.**[cite: 1]
 
-Currently, two official plugins are available:
+## 🚀 The Tech Stack
+* **Frontend:** Flutter (Dart)
+* **Backend & Auth:** Supabase (PostgreSQL)
+* **State Management:** Riverpod
+* **AI Tooling:** Developed with Cursor & Claude 3.5 Sonnet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🗺️ Development Roadmap
 
-## React Compiler
+To avoid feature creep, development is structured into three phases[cite: 1]:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Phase 1: The Core Dojo (MVP)[cite: 1]
+* **Dark Theme Only:** Deep obsidian and neon aesthetics[cite: 1].
+* **Choosing Path (Onboarding):** Users select an archetype during onboarding (e.g., Shonen, Shadow Monarch) which tailors their feed with matching anime motivation edits[cite: 1].
+* **The "Instant" Check-In Feed:** A random, time-sensitive prompt (BeReal style) where users have limited time to snap a picture of their current grind/work[cite: 1].
+* **Motivation / Aura Button:** A specific interaction on posts to hype up friends who are actively grinding[cite: 1].
 
-## Expanding the ESLint configuration
+### Phase 2: The Ranking Update[cite: 1]
+* **Screen-Time Rank Penalty:** The app tracks focused time. Users declare how much time they need for motivation; if they waste time beyond that limit, their rank takes a penalty[cite: 1].
+* **Leaderboards & Rewards:** Competitive ranking. Top grinders win free profile skins, exclusive tags, and titles[cite: 1].
+* **Ranks & Badges:** Progression system (e.g., E-Rank to S-Rank) with visual badges for hitting streaks and milestones[cite: 1].
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Phase 3: Social Expansion[cite: 1]
+* **Integrated Messenger:** Built-in chat to talk to friends and rivals[cite: 1].
+* **Daily Stories:** 24-hour temporary posts to share the daily status or quick updates[cite: 1].
+
+## 🛠️ Getting Started
+1. Clone the repository: `git clone https://github.com/yourusername/vibe.git`
+2. Install dependencies: `flutter pub get`
+3. Connect your Supabase project in the `.env` file.
+4. Run the app: `flutter run`
